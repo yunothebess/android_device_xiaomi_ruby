@@ -87,10 +87,21 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor
 
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     android.hardware.camera.provider@2.6.vendor
+
+# Camera Legacy HIDL deps
+PRODUCT_PACKAGES += \
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0.vendor \
+    android.hidl.memory.block@1.0 \
+    android.hidl.memory.block@1.0.vendor \
+    android.hidl.memory@1.0-impl
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
