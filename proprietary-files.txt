@@ -1205,6 +1205,20 @@ vendor/etc/camera/sceneDetection_india.xml
 vendor/etc/camera/skyseg_384_without_softmax_mdla20_vpu.dla
 vendor/etc/camera/vidhance_calibration
 vendor/etc/camera/vidhance_calibration_ofilm
+vendor/xiaomi/ruby/proprietary/system/lib/libcamera_ispinterface_jni.xiaomi.so
+vendor/xiaomi/ruby/proprietary/system/lib/libhidltransport.so
+vendor/xiaomi/ruby/proprietary/system/lib/libmtkisp_metadata_sys.so
+vendor/xiaomi/ruby/proprietary/system/lib/libui.so
+vendor/xiaomi/ruby/proprietary/system/lib/vendor.mediatek.hardware.camera.isphal@1.0.so
+vendor/xiaomi/ruby/proprietary/system/lib64/libcamera_ispinterface_jni.xiaomi.so
+vendor/xiaomi/ruby/proprietary/system/lib64/libhidltransport.so
+vendor/xiaomi/ruby/proprietary/system/lib64/libmtkisp_metadata_sys.so
+vendor/xiaomi/ruby/proprietary/system/lib64/libui.so
+vendor/xiaomi/ruby/proprietary/system/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
+vendor/xiaomi/ruby/proprietary/vendor/lib/libhidltransport.so
+vendor/xiaomi/ruby/proprietary/vendor/lib/libperfctl_vendor.so
+vendor/xiaomi/ruby/proprietary/vendor/lib64/libhidltransport.so
+vendor/xiaomi/ruby/proprietary/vendor/lib64/libperfctl_vendor.so
 
 # Connectivity
 vendor/bin/conninfra_loader
