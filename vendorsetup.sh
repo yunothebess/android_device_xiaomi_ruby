@@ -53,7 +53,7 @@ remove_directory "./frameworks/native"
 # --- Cloning repositories in parallel ---
 echo -e "Step 2: Cloning repositories in parallel...\n"
 clone_repository "https://github.com/PQEnablers-Devices/android_kernel_xiaomi_mt6877" "lineage-20" "./kernel/xiaomi/mt6877"
-clone_repository "https://github.com/yunothebess/android_vendor_xiaomi_ruby" "miui_cam" "./vendor/xiaomi/ruby"
+clone_repository "https://github.com/yunothebess/android_vendor_xiaomi_ruby" "miui-cam" "./vendor/xiaomi/ruby"
 clone_repository "https://github.com/PQEnablers-Devices/android_device_mediatek_sepolicy_vndr" "lineage-20" "./device/mediatek/sepolicy_vndr"
 clone_repository "https://github.com/PQEnablers-Devices/android_hardware_mediatek" "lineage-20-foss" "./hardware/mediatek"
 clone_repository "https://github.com/LineageOS/android_hardware_xiaomi" "lineage-20" "./hardware/xiaomi"
