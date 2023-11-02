@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression_ret
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+#v4fx
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # A/B
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \
