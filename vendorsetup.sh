@@ -48,7 +48,6 @@ remove_directory "./vendor/xiaomi/ruby"
 remove_directory "./device/mediatek/sepolicy_vndr"
 remove_directory "./hardware/mediatek"
 remove_directory "vendor/xiaomi/camera"  # Add this line to remove vendor/xiaomi/camera
-remove_directory "./frameworks/native"
 
 # --- Cloning repositories in parallel ---
 echo -e "Step 2: Cloning repositories in parallel...\n"
@@ -66,12 +65,8 @@ clone_repository "https://gitlab.com/wodanesdag/vendor_xiaomi_camera.git" "ruby"
 echo -e "Step 3: Cloning ViPER4AndroidFX repository with v4a branch...\n"
 clone_repository "https://github.com/TogoFire/packages_apps_ViPER4AndroidFX" "v4a" "packages/apps/ViPER4AndroidFX"
 
-# --- Clone frameworks_native_pos into the same directory as removed frameworks/native with thirteen branch ---
-echo -e "Step 4: Cloning frameworks_native_pos repository with thirteen branch...\n"
-clone_repository "https://github.com/yunothebess/frameworks_native_pos" "thirteen" "./frameworks/native"
-
 # --- Commented out the KernelSU section ---
-# echo "Step 5: KernelSU installation in ./kernel/xiaomi/mt6877..."
+# echo "Step 4: KernelSU installation in ./kernel/xiaomi/mt6877..."
 # (
 #   cd "./kernel/xiaomi/mt6877" || exit
 #  curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
