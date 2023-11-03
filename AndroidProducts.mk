@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2023 The PixelOS Project
+# Copyright (C) 2023 The Alphadroid Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ruby.mk
+    $(LOCAL_DIR)/lineage_ruby.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ruby-user \
-    aosp_ruby-userdebug \
-    aosp_ruby-eng
+    lineage_ruby-user \
+    lineage_ruby-userdebug \
+    lineage_ruby-eng
